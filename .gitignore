@@ -1,6 +1,5 @@
 *.pyc
 *.html
 /.idea
-/htmlcov
-/.coverage
-/doc/build
+*.exe
+.coverage

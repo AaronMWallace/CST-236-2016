@@ -1,0 +1,111 @@
+
+*0001 When I ask "What time is it?" I want to be given the current date/time so I can stay up to date
+
+*0002 When I ask "What is the n digit of fibonacci" I want to receive the answer so I don't have to figure it out myself
+
+*0003 When I ask "What is the n digit of pi" I want to receive the answer so I don't have to figure it out myself
+
+*0004 When I ask "Please clear memory" I was the application to clear user set questions and answers so I can reset the application
+
+*0005 When I say "Open the door hal", I want the application to say "I'm afraid I can't do that <user name> so I know that is not an option
+
+*0006 When I ask "Convert <number> <units> to <units>" I want to receive the converted value and units so I can know the answer.
+
+*0007 When I ask for a numberic conversion I want at least 10 different units I can convert from/to
+
+*0008 When I ask "Where is my car?" I want the application to say "In the driveway, <user name>" so I don't have to look for it myself.
+
+*0009 When I ask "What is the answer to everything?" I want the application to say "42" so I can learn the answer to everything.
+
+*0010 When I ask "How are you?" I want the system to say "I am doing well <user name>" so it feels more personal
+
+*0011 When I ask "Who are you?" I want the system to say "My name is PyTona" so I can know its name
+
+*0012 When I say "Please shut down hal" I want the application to say "I am afraid I cannot do that right now <user name>" so I know it isn't an option
+
+
+
+
+
+
+
+#0001 The system shall be able to determine if a triangle is scalene, equilateral or isosceles
+
+#0002 The system shall accept three triangle sides as length in either float or integers
+
+#0003 The system shall be able to determine the type of quadrilateral based on 4 sides and 4 angles
+
+#0004 The system shall accept quadrilateral sides as floats or integers
+
+#0005 The system shall accept quadrilateral angles as floats or integers
+
+#0006 The system shall accept questions in the form of strings and attempt to answer them
+
+#0007 The system shall answer questions that begin with one of the following valid question keywords: "How", "What", "Where", "Why" and "Who"
+
+#0008 If the system does not detect a valid question keyword it shall return "Was that a question?"
+
+#0009 If the system does not detect a question mark at end of the string it shall return "Was that a question?"
+
+A question mark is defined as ASCII value 0x3F
+
+**Determining Answers**
+
+#0010 The system shall break a question down into words separated by space
+
+#0011 The system shall determine an answer to a question as a correct if the keywords provide a 90% match and return the answer
+
+#0012 The system shall exclude any number value from match code and provide the values to generator function (if one exists)
+
+#0013 When a valid match is determined the system shall return the answer
+
+#0014 When no valid match is determined the system shall return "I don't know, please provide the answer"
+
+**Providing Answers**
+
+#0015 The system shall provide a means of providing an answer to the previously asked question.
+
+#0016 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+
+#0017 If no previous question has been asked the system shall respond with "Please ask a question first"
+
+#0018 If an attempt is made to provide an answer to an already answered question the system shall respond with "I don\'t know about that. I was taught differently" and not update the question
+
+**Correcting Answers**
+
+#0019 The system shall provide a means of updating an answer to the previously asked question.
+
+#0020 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+
+#0021 If no previous question has been asked the system shall respond with "Please ask a question first"
+
+**Additional Requirements**
+
+#0022 The system shall be able to detemine the n factorial of a given integer.
+
+#0023 The system shall be able to give the result of <int x> to the <int y> power.
+
+#0024 The system shall be able to calculate the square root of a given integer.
+
+#0025 The system shall be able to convert degrees to radians and present the result an an integer.
+
+#0026 The system shall be able to convert radians to degrees and present the result an an integer.
+
+**Mock Requirements**
+#0100 The system shall return 'Yes' or 'No' when asked 'Is the <file path> in the repo?'
+
+#0101 The system shall return one of the following when asked 'What is the status of <file path>?'
+
+         - <file path> has been modified locally
+
+         - <file path> has not been checked in
+
+         - <file path> is a dirty repo
+
+         - <file path> is up to date
+
+#0102 The system shall return '<hash>, <date modified>, <author>' when asked 'What is the deal with <file path>?'
+
+#0103 The system shall return the repo branch when asked 'What branch is <file path>?'
+
+#0104 The system shall return the repo url when asked 'Where did <file path> come from?'

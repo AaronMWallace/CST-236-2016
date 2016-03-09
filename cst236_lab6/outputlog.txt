@@ -1,0 +1,46 @@
+*** What is 8 feet in miles?  ***
+*** How many seconds since?  ***
+*** Who invented Python?  ***
+*** Why don't you understand me?  ***
+*** Why don't you shutdown?  ***
+*** Where am I?  ***
+*** Half Life 3 confirmed?  ***
+*** What type tf triangle is 5 5 5? equilateral ***
+*** What typ tf trIange iz 5 5 5?  ***
+*** Half Life 3 confirmed  ***
+*** What type of quadrilateral is 5 5 5 5 90 90 90 90? square ***
+*** What type of quadrilateral is 5 5 5 5 90 90 90 90? circle ***
+*** What is 78 degrees in radians? 1 ***
+*** 7  ***
+*** Who are 17 you?  ***
+*** What is 6 factorial? 720 ***
+*** Is the <C:\Python27\Scripts> in the repo? Yes ***
+*** What is my name?  ***
+*** What is my name? Jack ***
+*** Please clear memory? None ***
+*** What is my name?  ***
+*** What is 15 the digit of fibonacci? 610 ***
+*** Open the door hal? I'm afraid I can't do that Aaron Wallace ***
+*** What time is it? 2016-03-09 11:55:29.154000 ***
+*** Convert 13 megameters to kilometers? 13000.0 ***
+*** Convert 24 hectometers to decameters? 240.0 ***
+*** Convert 1 meters to decimeters? 10.0 ***
+*** Convert 54 centimeters to millimeters? 540.0 ***
+*** Convert 62 micrometers to nanometers? 62000.0 ***
+*** Where is my car? In the driveway Aaron Wallace ***
+*** What is the answer to everything? 42 ***
+*** How are you? I am doing well Aaron Wallace ***
+*** Who are you? My name is PyTona ***
+*** Please shut down hal? I am afraid I cannot do that right now Aaron Wallace ***
+*** What is 2 to the 3 power? 8 ***
+*** What is 2 radians in degrees? 114 ***
+*** What is the square root of 256? 16.0 ***
+*** Convert 62 micrometers to nanometers? 62000.0 ***
+*** What is 10 factorial? 3628800 ***
+*** What is the 11 digit of fibonacci? 89 ***
+*** What is 2 radians in degrees? 114 ***
+*** What is 4 to the 3 power? 64 ***
+*** What is the square root of 256? 16.0 ***
+*** What is my name?  ***
+*** What is my name? Bubba ***
+*** What is my name? Bubba ***
